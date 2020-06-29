@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<style type="text/css">
+		
+		*{
+			margin: 0;padding: 0;box-sizing: border-box;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		header{
+			height: 100vh; width: 100%;background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('https://1.bp.blogspot.com/-GhIvXJ5pFnA/XpxgkfxaYpI/AAAAAAAAO40/y7fafB107Mg8h5xLAdLWr2AYasiug6omQCLcBGAsYHQ/s1600/taj1.jpg');background-repeat: no-repeat;
+			background-size: cover;
+		}
+		nav{
+			width: 100%;height: 15vh;background: rgba(0,0,0,0.2); color: white;
+			display: flex;justify-content: space-between;align-items: center;text-transform: uppercase;
+		}
+		nav .logo{
+			width: 25%;text-align: center;
+		}
+		
+		nav .menu {
+			width: 40%;
+			display: flex;justify-content:space-around;
+		}
+		nav .menu a{
+			width: 25%;
+			text-decoration: none;color: white; font-weight: bold;
+		}
+		nav .menu a:first child{
+			color:#00b894;
+		}
+		main{
+			width: 100%;height: 85vh;display: flex;justify-content: center;align-items: center;text-align: center;color: white;
+		}
+		section{
+
+
+		}
+		section h3{
+			font-weight: 200px;font-size: 35px;letter-spacing: 3px;text-shadow: 1px 1px 2px black;
+		}
+		section h1{
+			margin: 30px 0 20px 0;font-size: 55px;font-weight: 700px;text-shadow: 2px 1px 5px black;text-transform: uppercase;letter-spacing: 3px;
+		}
+		section p{
+			font-size: 25px;
+			color: #eee;
+			word-spacing: 2px;
+			margin-bottom: 25px;
+			text-shadow: 1px 1px 1px black;
+		}
+		section a{
+			padding: 12px 30px;
+			border-radius: 4px;
+			outline: none;
+			text-transform: uppercase;
+			font-size: 13px;
+			font-weight: 500;
+			text-decoration: none;
+			letter-spacing: 1px;
+			transition: all .5s ease;
+		}
+		section .btnone{
+			/*background: #00b894;*/
+			background: white ;
+			color: #000;
+		}
+		.btnone:hover{
+			background: #00b894;
+			color: white;
+		}
+		section .btntwo{
+			background: #00b894;
+			color: white;
+		}
+		 .btntwo:hover{
+		 	background: white;
+			color: #000;
+		 }
+		.change_content:after{
+			content: ' ';
+			animation: changetext 10s infinite linear;
+			
+		}
+		@keyframes changetext {
+			0%{color: pink; content: "darjenling";}
+			20%{color: red; content: "agra";}
+			35%{color: blue; content: "jaipur";}
+			60%{color: purple; content: "keral";}
+			80%{color: yellow; content: "delih";}
+			100%{color: gray; content: "mumbai";}
+			
+		}
+		h2{
+			margin-top: -50px;
+			margin-left: 1100px;
+			color: white;
+			font-size: 35px;
+		}
+
+	</style>
+</head>
+<body>
+<header>
+<nav>
+	<div class="logo"><h1 class="animated infinite zoomIn">mera bharat </h1></div>
+	<div class="menu">
+
+	<a href="#">Home</a>
+	<a href="https://photos.google.com/?tab=oq1&pageId=none" target="-blank">gallary</a>
+	<a href="https://youtu.be/ZAb_31JsWL0" target="-blank">About</a>
+	<a href="#">contact</a>
+</div>
+</nav>
+	<main>
+		<section>
+			<h3>welcome to india</h3>
+			<h1>DO COME & VISIT <SPAN class="change_content"></SPAN></h1>
+			<P>India once is not enough</P>
+			<a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="-blank" class="btnone">learn more</a>
+			<a href="https://www.blogger.com/blogger.g?blogID=2750552165496968091#allposts" target="-blank" class="btntwo">singup here</a>
+           
+		</section>
+
+	</main>
+
+</header>
+ <h2>Creat By Chhotu Kumar</h2>
+</body>
+</html>
